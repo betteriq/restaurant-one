@@ -1,10 +1,15 @@
 import React from "react";
 
-const About = () => {
+const Menu = () => {
   return (
     <div className="about">
       <div className="container">
         <div className="row">
+          <div className="col-6">
+            <div className="about_image">
+              <img src="images/gheyme_1.jpg" alt="" />
+            </div>
+          </div>
           <div className="col-6 p-25">
             <h3>درباره ما</h3>
             <h1>به رستوران رشیدی خوش آمدید</h1>
@@ -29,15 +34,10 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="col-6">
-            <div className="about_image">
-                <img src="images/gheyme_1.jpg" alt="" />
-            </div>
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Menu;
