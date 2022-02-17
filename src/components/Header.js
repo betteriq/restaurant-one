@@ -17,6 +17,11 @@ const Header = () => {
               تازه سرو می شود. البته گاهی کوبیده را به جای برنج با نان هم می
               خورند که صد البته بهتر است نان سنگک باشد
             </p>
+            <div className="banner_btn">
+              <a href="" className="btn btn-smart">
+                الان سفارش دهید
+              </a>
+            </div>
           </div>
         </div>
       </div>
